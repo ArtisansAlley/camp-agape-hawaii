@@ -1,0 +1,17 @@
+@import "fonts.scss";
+
+$primary:#ff8400 !default;
+$secondary: #212c64 !default;
+
+$navbar-light-color: #000 !default;
+$btn-primary-hover: darken($primary, 3%) !important;
+
+.btn-primary {
+    color: white !important;
+}
+.btn-primary:hover {
+    background-color: $btn-primary-hover;
+    border-color: $btn-primary-hover;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
