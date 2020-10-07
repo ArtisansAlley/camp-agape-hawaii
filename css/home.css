@@ -9,7 +9,16 @@ background: -webkit-linear-gradient(180deg, rgba(0,0,0,0.5494572829131652) 0%, r
 background: linear-gradient(180deg, rgba(0,0,0,0.5494572829131652) 0%, rgba(255,255,255,0.00043767507002800965) 100%, rgba(0,212,255,0) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1); */
 }
-
+#navbar .navbar-nav .nav-item {
+    border-top: 3px solid white;
+}
+#navbar .navbar-nav .nav-item.active{
+    border-top: 3px solid #ff8400;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+}
 
 .section {
     margin-top: 6rem;
@@ -30,8 +39,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     z-index: 2;
     transform: translate(-50%, -50%);
 }
-#header .header-text {
+#header .header-text .text-secondary{
     font-weight: bolder;
+    text-shadow: 0px 0px 10px white;
+}
+#header .header-text .text-primary {
+    text-shadow: 0px 0px 10px black;
 }
 #header video {
     position: absolute;
@@ -48,16 +61,46 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 .section-title {
     text-align: center;
 }
-
+.section-title p {
+    letter-spacing: 5px;
+}
 /* About Us */
-
 #about .image {
     background-image: url('../img/camp-agape-image-1.png');
 }
 
+/* Be Part of... */
+#steps > div{
+    cursor: pointer;
+}
+#steps .btn {
+    opacity: 0;
+}
+#steps > div:hover .btn{
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+
 /* Testimonies */
 #testimonies .image {
     background-image: url('../img/camp-agape-image-2.png');
+}
+
+/* News */
+#news .news-category {
+    background-color: #ff8400;
+    width: fit-content;
+    padding: 5px;
+}
+
+/* Project Vide */
+#projectVideo .modal-content{
+   background-color: rgba(0,0,0,0);
+   border-color: transparent !important;
+}
+#projectVideo .modal-header {
+    border-bottom: 0 !important;
 }
 
 .bg-image {

@@ -6,6 +6,10 @@ $secondary: #212c64 !default;
 $navbar-light-color: #000 !default;
 $btn-primary-hover: darken($primary, 3%) !important;
 
+
+.btn {
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
 .btn-primary {
     color: white !important;
 }
