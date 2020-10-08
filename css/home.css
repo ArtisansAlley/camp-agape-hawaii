@@ -21,8 +21,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 }
 
 .section {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 /* Header */
 #header {
@@ -39,13 +39,23 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     z-index: 2;
     transform: translate(-50%, -50%);
 }
-#header .header-text .text-secondary{
+#header .text-secondary {
+    color: #3a50bf !important;
+}
+#header .header-text {
     font-weight: bolder;
-    text-shadow: 0px 0px 10px white;
+    /* text-shadow: 0px 4px 3px black; */
 }
-#header .header-text .text-primary {
-    text-shadow: 0px 0px 10px black;
+
+@media (max-width: 425px) {
+    #header {
+        height: 75vh;
+    }
+    #header .display-3 {
+        font-size: 2.5rem;
+    }
 }
+
 #header video {
     position: absolute;
     min-width: 100%;
@@ -68,6 +78,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 #about .image {
     background-image: url('../img/camp-agape-image-1.png');
 }
+@media (max-width: 425px) {
+    .bg-image {
+        height: 200px !important;
+    }
+}
 
 /* Be Part of... */
 #steps > div{
@@ -80,11 +95,29 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     opacity: 1;
     transition: all 0.5s;
 }
+@media (max-width: 425px) {
+    #steps .btn {
+        opacity: 1;
+    }
+}
 
 
 /* Testimonies */
 #testimonies .image {
     background-image: url('../img/camp-agape-image-2.png');
+    height: 100vh;
+}
+#testimonies .bg-image {
+    height: 100vh;
+}
+@media (max-width: 425px) {
+    #testimonies {
+        height: fit-content;
+    }
+    #testimonies .image{
+        background-position:50% -200px;
+        background-repeat: no-repeat;
+    }
 }
 
 /* News */
@@ -142,7 +175,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 }
 
 /* New Carousel */
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     #sponsor-carousel .carousel-inner .carousel-item > div {
         display: none;
     }
