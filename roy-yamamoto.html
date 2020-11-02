@@ -1,0 +1,353 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/theme.css">
+        <link rel="stylesheet" href="css/solid.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontawesome.css">
+        <link href="css/aos.css" rel="stylesheet">
+        <style>
+            #navbar-contact {
+                border-bottom: 1px solid#dee2e67a !important;
+                background-color: white;
+                color: #000;
+            }
+            #navbar-contact .nav-link {
+                color: #000;
+            }
+
+            #navbar .navbar-nav .nav-item {
+                border-top: 3px solid transparent;
+            }
+            #navbar .navbar-nav .nav-item.active{
+                border-top: 3px solid#81bd41;
+            }
+            #navbar.on-top {
+                background-color:white;
+            }
+            #navbar.on-scroll {
+                background-color: white;
+                transition: all 0.1s ease-out;
+                transition-delay: 0.2s;
+            }
+            #navbar.on-top .navbar-nav .nav-item:hover {
+                border-top-color: #ffffff73;
+            }
+            #navbar.on-top .navbar-nav .nav-link {
+                color:  #000 !important;
+            }
+            #navbar.on-scroll .navbar-nav .nav-link {
+                color: #000 !important;
+            }
+
+
+
+            #header { 
+                background-image: url('img/roy-yamamoto.png');
+            }
+            #header .sub-header {
+                font-size: 1.2rem;
+            }
+
+
+            .quote {
+                padding: 100px;
+            }
+            @media(max-width: 428px) {
+                .quote {
+                    padding: 50px;    
+                }
+            }
+
+            .watch {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                z-index: 999;
+                box-shadow: 0px 0px 10px;
+                opacity: 0.8;
+            }
+            .watch:hover {
+                opacity: 1;
+            }
+            .play-bio {
+                width: 60px;
+                height: 60px;
+                border-radius: 300%;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="fixed-top">
+            <nav id="navbar-contact" class="navbar navbar-dark navbar-expand-lg py-0 px-0 ">
+                <div class="collapse navbar-collapse small" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active py-0">
+                      <a class="nav-link" href="#"><i class="fas fa-phone mr-2"></i> +808-468-1855</a>
+                    </li>
+                    <li class="nav-item active py-0">
+                        <a class="nav-link" href="#"><i class="fas fa-envelope mr-2"></i> info@theshelter.org</a>
+                      </li>
+                  </ul>
+                </div>
+            </nav>
+            <nav id="navbar" class="navbar navbar-expand-lg py-0 on-top">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="" class="img-fluid" width="43">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active py-2">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item py-2">
+                      <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item py-2">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item py-2">
+                        <a class="nav-link" href="#">Event Sponsor</a>
+                    </li>
+                    <li class="nav-item py-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item bg-primary py-2" style=" border-top: 5px solid:#81bd41;">
+                        <a class="nav-link text-dark" href="#">Donate</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- Header -->
+        <div id="header">
+            <div class="header-text-wrapper text-center" >
+                <p class="text-light text-uppercase mb-0 sub-header">Testimony of</p>
+                <h1 class="header-text display-3 text-primary ">
+                    <span class="text-light">Pastor</span> Roy Yamamoto
+                </h1>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="container-fluid pb-5" style="overflow: hidden;">
+            <div class="row mb-5" data-aos="fade-left">
+                <div class="col-lg-6 bg-secondary quote text-light">
+                    <p class="h1 text-center text-primary"><i class="fas fa-quote-left"></i></p>
+                    <p class="h2 mb-0">
+                        “Roy, I know <span class="text-primary">you’re going to make a difference in the world</span>, so I’m going to cut you free today and give you back your freedom.”
+                    </p>
+                </div>
+                <div class="col-lg-6" style="background-image: url('img/photos/2.jpg');background-size: cover; background-position:center;">
+                    
+                </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-8 mx-auto">
+                    <p class="lead">
+                        No one could know the impact of one man, an ex-convict, and how he would change an entire
+                        community, one child at a time. Within a span of [number] years, Roy Yamamoto’s prison
+                        ministry changed the lives of future generations of the children of incarcerated parents by taking
+                        them off the path of self-destruction and leading them onto the path of righteousness. 
+                    </p>
+                    <p class="lead">
+                        In 1997, after two court appeals, prosecutors secured an 80 year double life sentence for Roy
+                        Yamamoto. During the trial, the judge looked up at him and told him, “Roy, I know you’re going
+                        to make a difference in the world, so I’m going to cut you free today and give you back your
+                        freedom.” 
+                    </p>
+                </div>
+            </div>
+            <div class="row my-5" data-aos="fade-left">
+                <div class="col-lg-6 bg-secondary text-light quote">
+                    <p class="h1 text-center text-primary"><i class="fas fa-quote-left"></i></p>
+                    <p class="h2 mb-0">
+                        "...For Roy, this was a profound moment that seeded in him the idea to start a <span class="text-primary">ministry for children of the incarcerated.</span>"
+                    </p>
+                </div>
+                <div class="col-lg-6" style="background-image: url('img/photos/IMG_4586.png');background-size: cover; background-position:center;"></div>
+            </div>
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-8 mx-auto">
+                    <p class="lead">
+                        Shortly after his release, Roy started attending the [name] church, and within a year became its
+                        Prison Ministry Chaplain for a mega church on Oahu. 
+                    </p>
+                    <p class="lead">
+                        Roy’s story began in 1993 when his [age] daughter Kristen and his sister [name], visited him in
+                        prison. He noticed she held a stuffed turtle in her arms, given to her through a non-profit
+                        organization called Angel Tree, run by volunteers to deliver a gifts, the Gospel, and a personal
+                        message of love to children on behalf of their mom or dad in prison. The turtle was a reminder to
+                        her that her father was still watching over her, and she still has this turtle to this day. For Roy,
+                        this was a profound moment that seeded in him the idea to start a ministry for children of the
+                        incarcerated. 
+                    </p>
+                </div>
+            </div>
+            <div class="row my-5" data-aos="fade-left">
+                <div class="col-lg-6 bg-secondary text-light quote">
+                    <p class="h1 text-center text-primary"><i class="fas fa-quote-left"></i></p>
+                    <p class="h2 mb-0">
+                        "...But in Roy’s own
+                        words, <span class="text-primary">'God kept telling him to do more'</span>"
+                    </p>
+                </div>
+                <div class="col-lg-6" style="background-image: url('img/photos/3.jpg');background-size: cover; background-position:center;"></div>
+            </div>
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-8 mx-auto">
+                    <p class="lead">
+                        Roy began a program for inmates who were just released from prison, then worked with Angel
+                        Tree to organize Christmas events, inviting those same children and their families. He then
+                        organized large carnivals for the same families with attendance over 5000. But in Roy’s own
+                        words, “God kept telling him to do more.” 
+                    </p>
+                    <p class="lead">
+                        With two of his brothers, Roy attended the [name] conference on the mainland where he was
+                        introduced to a program run by their churches involving campouts where children of the
+                        incarcerated would attend. When Roy returned home, he decided to create a campout as well.
+                        But not just campout—a special four-day program for similar children where they would learn
+                        how to become positive role models at home and within their communities. But more
+                        importantly, they would learn about agape, God’s unconditional love. And thus, Camp Agape
+                        was born, on the grounds of [specify location.] 
+                    </p>
+                    <p class="lead">
+                        When Roy began the program, children would come so hungry that they would hoard food until
+                        they realized that everything at the camp was for them because of a God they barely know
+                        anything about, is everywhere and He loves them. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="watch bg-light p-3" style="position:fixed;bottom:0;">
+            <div>
+                <div class="float-left">
+                    <button class="btn btn-lg btn-primary rounded-circle play-bio" data-toggle="modal" data-target="#bioVideo">
+                        <i class="fas fa-play small"></i>
+                    </button>
+                </div>
+                <div class="float-right">
+                    <p class="text-uppercase mb-0 ml-4">Watch</p>
+                    <hr class="p-0 my-2">
+                    <p class="text-muted font-weight-light ml-4">Pastor Yamamoto's Story</p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="container-fluid bg-dark py-5 px-4 text-light">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Contact</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-user mr-2"></i> Camp Agape Hawaii</li>
+                        <li><i class="fas fa-phone mr-2"></i> (808) 284-8070</li>
+                        <li><i class="fas fa-envelope mr-2"></i> campagapehawaii.com</li>
+                        <li><i class="fas fa-globe mr-2"></i> PO Box 30009 Honolulu, HI 96820</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Donate</h4>
+                    <p class="mb-0">
+                        As we prepare for this year’s Camp Agape, we ask for your help by financially partnering with us at any level you can. Your donation will make an impact on an Angel's life forever ... please <a href="">DONATE TODAY</a>.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <h4>Camp Agape Chapters</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Camp Agape Hawaii</a></li>
+                        <li><a href="#">Camp Agape Big Island</a></li>
+                        <li><a href="#">Camp Agape California</a></li>
+                        <li><a href="#">Camp Agape Maui</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Join Us!</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Volunteers</a></li>
+                        <li><a href="#">Mentors</a></li>
+                        <li><a href="#">Angels</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Camp Agape Project Video -->
+        <div class="modal fade bg-transparent" id="bioVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <iframe style="width: 100%;" height="500" class="mx-auto" src="https://www.youtube.com/embed/8wQ58z0j-Ns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Animate Scroll Library -->
+        <script src="js/aos.js"></script>
+
+        <!-- JQuery -->
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+
+        <!-- Bootstrap Dependencies -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+        <script>
+            $(document).ready(function(){
+                var navbar = $('.navbar');
+                // Animate on scroll library
+                AOS.init({
+                    duration: 600
+                });
+                // Sponsor carousel modification
+                $('#sponsor-carousel .carousel-item').each(function(){
+                    var minPerSlide = 3;
+                    var next = $(this).next();
+                    if (!next.length) {
+                    next = $(this).siblings(':first');
+                    }
+                    next.children(':first-child').clone().appendTo($(this));
+
+                    for (var i=0;i<minPerSlide;i++) {
+                        next=next.next();
+                        if (!next.length) {
+                            next = $(this).siblings(':first');
+                        }
+
+                        next.children(':first-child').clone().appendTo($(this));
+                    }
+                });
+                //navbar scroll effect
+                $(window).on('scroll', function() {
+                    $navbar = $('#navbar');
+                    scrollPos = $(this).scrollTop();
+                    if (scrollPos > 0) {
+                        $navbar.removeClass('on-top').addClass('on-scroll');
+                        $('#navbar-contact').slideUp(200);
+                    }
+                    else {
+                        $navbar.removeClass('on-scroll').addClass('on-top');
+                        $('#navbar-contact').slideDown(200);
+                    }
+                })
+            });
+        </script>
+    </body>
+</html>
