@@ -2,15 +2,53 @@
     background-image: url('../img/banner.jpg');
 }
 
+#navbar-contact {
+    border-bottom: 1px solid#dee2e67a !important;
+    background-color: transparent !important;
+}
+#navbar .navbar-nav .nav-item {
+    border-top: 3px solid transparent;
+}
+#navbar .navbar-nav .nav-item.active{
+    border-top: 3px solid#81bd41;
+}
+#navbar.on-top {
+    background-color: transparent;
+}
+#navbar.on-scroll {
+    background-color: white;
+    transition: all 0.1s ease-out;
+    transition-delay: 0.2s;
+}
+#navbar.on-top .navbar-nav .nav-item:hover {
+    border-top-color: #ffffff73;
+}
+#navbar-contact .navbar-nav .nav-link,
+#navbar.on-top .navbar-nav .nav-link {
+    color: white !important;
+}
+#navbar.on-scroll .navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+#navbar-contact {
+    border-bottom: 1px solid#dee2e67a !important;
+    background-color: white;
+    color: #000;
+}
+#navbar-contact .nav-link {
+    color: #000;
+}
 
 .bg-image {
     height: 100vh;
-    max-height: 900px;
+    max-height: 700px;
 }
 
 /* Christian Fellowship */
 #christian-fellowship .image {
     background-image: url('../img/campagape-plan.png');
+    background-position: top center;
     height: 100vh;
 }
 @media (max-width: 425px) {
