@@ -3,6 +3,7 @@ html, body {
 }
 #navbar-contact {
     background-color: white;
+    border-bottom: 1px solid#dee2e67a !important;
 }
 #navbar .navbar-nav .nav-item {
     border-top: 3px solid transparent;
