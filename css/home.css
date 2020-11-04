@@ -2,13 +2,24 @@
     background-image: url('../img/banner.jpg');
 }
 
-/* About Us */
-#about .image {
-    background-image: url('../img/camp-agape-image-1.png');
+
+.bg-image {
+    height: 100vh;
+    max-height: 900px;
+}
+
+/* Christian Fellowship */
+#christian-fellowship .image {
+    background-image: url('../img/campagape-plan.png');
+    height: 100vh;
 }
 @media (max-width: 425px) {
-    .bg-image {
-        height: 200px !important;
+    #christian-fellowship {
+        height: fit-content;
+    }
+    #christian-fellowship .image{
+        background-position:50% -200px;
+        background-repeat: no-repeat;
     }
 }
 
@@ -32,10 +43,7 @@
 
 /* Testimonies */
 #testimonies .image {
-    background-image: url('../img/camp-agape-image-2.png');
-    height: 100vh;
-}
-#testimonies .bg-image {
+    background-image: url('../img/testimonies.png');
     height: 100vh;
 }
 @media (max-width: 425px) {
@@ -53,6 +61,11 @@
     background-color: #81bd41;
     width: fit-content;
     padding: 5px;
+}
+#news .thumbnail {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
 }
 
 /* Project Vide */
@@ -75,7 +88,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 1;
+    /* z-index: 1; */
     background-position: center;
 }
 .bg-image .gradient {
@@ -85,7 +98,7 @@
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 51%, rgba(0,212,255,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#00d4ff",GradientType=1);
     position: absolute;
-    z-index: 2;
+    /* z-index: 2; */
     top: 0;
     left: 0;
     right: 0;

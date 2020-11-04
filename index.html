@@ -8,8 +8,13 @@
         <link rel="stylesheet" href="css/fontawesome.css">
         <link href="css/aos.css" rel="stylesheet">
         <style>
+            #ministries {
+                margin-top: -100px;
+            }
+            #ministries .card {
+            }
             #ministries .card-img-top {
-                height: 200px;
+                height: 250px;
                 background-size: cover;
                 background-position: center;
             }
@@ -24,6 +29,32 @@
                 background-color:#81bd41 !important;
                 cursor: pointer;
             }
+            #ministries .card-img-top {
+                position: relative;
+                z-index: 8;
+            }
+            #ministries .card-img-top div {
+                background-color: #242e64bb;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 4;
+            }
+            #ministries .card-img-top div p {
+                font-family: 'Playfair';
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 1rem;
+                color: white;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 4;
+            }
+
+
         </style>
     </head>
     <body>
@@ -42,7 +73,7 @@
                 </div>
             </nav>
             <nav id="navbar" class="navbar navbar-expand-lg py-0 on-top">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="img/logo.png" alt="" class="img-fluid" width="43">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,12 +83,12 @@
                 <div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active py-2">
-                      <a class="nav-link" href="#">Home</a>
+                      <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item py-2">
-                      <a class="nav-link" href="#">About Us</a>
+                      <a class="nav-link" href="roy-yamamoto.html">About Us</a>
                     </li>
-                    <li class="nav-item py-2">
+                    <!-- <li class="nav-item py-2">
                         <a class="nav-link" href="#">News</a>
                     </li>
                     <li class="nav-item py-2">
@@ -65,7 +96,7 @@
                     </li>
                     <li class="nav-item py-2">
                         <a class="nav-link" href="#">Contact</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item bg-primary py-2" style=" border-top: 5px solid:#81bd41;">
                         <a class="nav-link text-dark" href="#">Donate</a>
                     </li>
@@ -94,75 +125,119 @@
             </video>
         </div>
 
-
-        <!-- Ministries -->
-        <div class="container-fluid section" style="overflow: hidden;">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Section Title -->
-                   <div class="section-title text-left mb-4 text-center" data-aos="fade-up">
-                       <p class="text-uppercase mb-0">Agape Fellowship</p>
-                       <h1 class="text-primary">Ministries</h1>
+        <!-- Agape Christian Fellowship Center -->
+        <div class="container-fluid section mt-0 mb-0"  id="christian-fellowship">
+            <div class="row align-items-center h-100">
+                <div class="col-md-7 col-lg-6 order-2 order-md-1">
+                   <div class="px-0 px-md-5 container">
+                        <!-- Section Title -->
+                        <div class="section-title text-center mb-5" data-aos="fade-up">
+                            <p class="text-uppercase mb-0">A Vision of the past, present, and future</p>
+                            <h1>Agape <span class="text-primary">Christian Fellowship Center</span></h1>
+                        </div>
+                        <p class="h3" data-aos="fade-up" data-aos-delay="200">
+                            Agape Christian fellowship Center uses faith and action to implement a vision for a large-scale community center in Mililani that can foster emotional, spiritual, and educational growth for courageous individuals young and old who desire transformation for themselves, their families, and the community. This faculty will encompass these three ministries
+                        </p>
                    </div>
                 </div>
+                <div class="col-md-5 col-lg-6 bg-image container order-1 order-md-2 mb-5 mb-md-0" style="overflow: hidden;">
+                    <div class="image" data-aos="fade-left" data-aos-delay="400"></div>
+                    <div class="gradient"></div>
+                </div>
             </div>
-            <div class="row" data-aos="fade-left" data-aos-delay="200">
+        </div>
+
+        <!-- Ministries -->
+        <div class="container-fluid section" data-aos="fade-up" data-aos-delay="200" style="overflow:hidden" id="ministries">
+            <div class="row" >
                 <div class="col-12">
-                    <div class="card-group" id="ministries">
+                    <div class="card-deck">
                         <div class="card ">
-                            <div class="card-img-top" style="background-image: url('img/church.jpg');"></div>
+                            <div class="card-img-top" style="background-image: url('img/church.jpg');">
+                                <div>
+                                    <p>
+                                        “Train up a child in the way he should go; even when he is old he will not depart for it.” <span class="text-primary">—Proverbs 22:6</span>
+                                    </p>
+                                </div>
+                            </div>
                             <div class="card-body">
                                 <h1 class="card-title text-primary">Agape Fellowship</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem perspiciatis ab deleniti nostrum repudiandae minima blanditiis recusandae ipsum repellendus quos! Maxime magnam obcaecati quibusdam. Cum tempore harum maiores aliquid quae!</p>
+                                <p>We are a vibrant church with a congregation that looks to experience God in an intimate way.  We partner with our Lord and Savior Jesus Christ to express the joy and power of His Kingdom in every area of life.  We look to empower those whose families have been affected by parents who have been incarcerated and hope to strengthen their relationship with God.  </p>
                             </div>
                         </div>
                         <div class="card ">                
-                            <div class="card-img-top" style="background-image: url('img/camp_agape.jpg');"></div>
+                            <div class="card-img-top" style="background-image: url('img/camp_agape.jpg');">
+                                <div>
+                                    <p>
+                                        “The Spirit of the Lord God is upon me because the Lord has anointed me to bring good news to the poor; he has sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to those who are bound…” <span class="text-primary">—Isaiah 61:1</span>
+                                    </p>
+                                </div>
+                            </div>
                             <div class="card-body">
                                 <h1 class="card-title text-primary">Camp Agape</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem perspiciatis ab deleniti nostrum repudiandae minima blanditiis recusandae ipsum repellendus quos! Maxime magnam obcaecati quibusdam. Cum tempore harum maiores aliquid quae!</p>
+                                <p>Once a year, about 150 “Angels”—children of incarcerated parents—attend Camp Agape, sponsored by Camp Agape Hawaii. The camp first started in 2005 and stems from a mission to share God’s love with children whose parents are in prison. “Agape” love is always the theme at the camp, as volunteers and junior mentors strive to demonstrate the love of Christ to the camp attendees. Camp Agape is an annual, four-day event filled with an intentional series of activities and events that facilitate sharing the Gospel of Jesus Christ through love, trust, forgiveness, and hope. Camp Agape is the place where astonishing transformations happen that affect the whole family and can last generations.   The camp is just the beginning of a transformed life with Christ. With the new center, we will be able to provide more activities and events throughout the year that keep the children connected with their mentors, who love and encourage them.</p>
                             </div>
                         </div>
                         <div class="card ">
-                            <div class="card-img-top" style="background-image: url('img/prison_outreach.jpg');"></div>
+                            <div class="card-img-top" style="background-image: url('img/prison_outreach.jpg');">
+                                <div>
+                                    <p>
+                                        “And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner.”<span class="text-primary">-Ephesians 2:20-22</span> 
+                                    </p>
+                                </div>
+                            </div>
                             <div class="card-body">
                                 <h1 class="card-title text-primary">Prison Outreach</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem perspiciatis ab deleniti nostrum repudiandae minima blanditiis recusandae ipsum repellendus quos! Maxime magnam obcaecati quibusdam. Cum tempore harum maiores aliquid quae!</p>
+                                <p>We are a vibrant church with a congregation that looks to experience God in an intimate way.  We partner with our Lord and Savior Jesus Christ to express the joy and power of His Kingdom in every area of life.  We look to empower those whose families have been affected by parents who have been incarcerated and hope to strengthen their relationship with God.  </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
 
-        <!-- Be Part of Camp Agape -->
+        <!-- How can you make a difference -->
         <div class="container section" id="about">
             <div class="row">
                 <div class="col-12">
                     <!-- Section Title -->
-                <div class="section-title text-left mb-4 text-center" data-aos="fade-up">
-                    <p class="text-uppercase mb-0">Be Part Of</p>
+                <div class="section-title text-left text-center" data-aos="fade-up">
+                    <p class="text-uppercase mb-0">How Can You Make a Difference?</p>
                     <h1 class="text-primary">Agape Christian Fellowship</h1>
                 </div>
                 </div>
             </div>
-            <div class="row text" id="steps" style="overflow:hidden">
-                <div class="col-md-6 col-lg-4 mb-5 ml-auto" data-aos="fade-right" data-aos-delay="200">
-                    <h2 class="mb-5 text-primary text-center">Share</h2>
-                    <p class="mb-5 lead">
-                        Our story is one of hope. Please share these links to others who are seeking to support a proven way to change the lives of women and their young children who were once homeless.
+            <div class="row my-5">
+                <div class="col-md-6 col-lg-10 mb-5 mx-auto">
+                    <blockquote class="blockquote mb-5 border p-2 text-dark text-center mx-auto">
+                        <p class="mb-0"><em>“So they said, ‘Let us rise up and build.’ Then they set their hands to do work.”</em><p>
+                        <footer class="blockquote-footer">Nehemiah 2:18</footer>
+                    </blockquote>
+                    <p class="lead">
+                        As we prepare for this year’s Camp Agape, please partner with us to help build our permanent Agape Christian Center. We cannot do this alone, so we ask for your help by financially partnering with us at any level you can.
                     </p>
-                    <div class="btn-container">
-                        <button class="btn btn-lg p-3 btn-primary">SHARE</button>
+                </div>
+            </div>
+            <div class="row text" id="steps" style="overflow:hidden">
+                <div class="col-md-6 col-lg-5 mb-5 ml-auto" data-aos="fade-right" data-aos-delay="200">
+                    <div>
+                        <h2 class="mb-5 text-primary text-center">Donate</h2>
+                        <p class="mb-5 lead">
+                            Our solution is proven. However, we need your support to sustain our solution. Contribute what you can and BE PART OF THE SOLUTION!
+                        </p>
+                        <button class="btn btn-lg p-3 btn-primary">DONATE</button>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mr-auto container" data-aos="fade-left" data-aos-delay="200">
-                    <h2 class="mb-5 text-primary text-center">Donate</h2>
-                    <p class="mb-5 lead">
-                        Our solution is proven. However, we need your support to sustain our solution. Contribute what you can and BE PART OF THE SOLUTION!
-                    </p>
-                    <button class="btn btn-lg p-3 btn-primary">DONATE</button>
+                <div class="col-md-6 col-lg-5 mr-auto bg-" data-aos="fade-left" data-aos-delay="200">
+                    <div>
+                        <h2 class="mb-5 text-primary text-center">Share</h2>
+                        <p class="mb-5 lead">
+                            Our story is one of hope. Please share these links to others who are seeking to support a proven way to change the lives of women and their young children who were once homeless.
+                        </p>
+                        <div class="btn-container">
+                            <button class="btn btn-lg p-3 btn-primary">SHARE</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -271,47 +346,47 @@
             <div class="row mb-5" data-aos="fade-up">
                 <div class="col-12">
                     <div class="section-title">
-                        <p class="text-uppercase mb-0">News Highlights</p>
-                        <h1 class="text-primary">News and Updates</h1>
+                        <p class="text-uppercase mb-0">Events</p>
+                        <h1 class="text-primary">Events and Highlights</h1>
                     </div>
                 </div>
             </div>
             <div id="news" class="row" data-aos="fade-up" data-aos-delay="200">
                 <div class="news-item col-md-6 col-lg-3">
-                    <img class="img-fluid" src="https://www.theshelter.org/wp/wp-content/uploads/2020/02/web1_20170428-0052-CTY-HOMELESS-WORKSHOP-455x320.jpg" alt="">
-                    <div class="news-category mt-1 text-uppercase mb-2"><p class="mb-0">Shelter News</p></div>
+                    <div class="thumbnail" style="background-image: url('img/photos/2.jpg');"></div>
+                    <!-- <div class="news-category mt-1 text-uppercase mb-2"><p class="mb-0">Shelter News</p></div>
                     <p class="h4">
                         The state’s first igloo dome shelters open to help Hawaii’s homeless
                     </p>
                     <p class="text-uppercase">October 24, 2018 by the shelter in shelter news</p>
-                    <a href="" class="text-primary text-uppercase">Read Full Story</a>
+                    <a href="" class="text-primary text-uppercase">Read Full Story</a> -->
                 </div>
                 <div class="news-item col-md-6 col-lg-3">
-                    <img class="img-fluid" src="https://www.theshelter.org/wp/wp-content/uploads/2020/02/web1_20170428-0052-CTY-HOMELESS-WORKSHOP-455x320.jpg" alt="">
-                    <div class="news-category mt-1 text-uppercase mb-2"><p class="mb-0">Shelter News</p></div>
+                    <div class="thumbnail" style="background-image: url('img/photos/3.jpg');"></div>
+                    <!-- <div class="news-category mt-1 text-uppercase mb-2"><p class="mb-0">Shelter News</p></div>
                     <p class="h4">
                         The state’s first igloo dome shelters open to help Hawaii’s homeless
                     </p>
                     <p class="text-uppercase">October 24, 2018 by the shelter in shelter news</p>
-                    <a href="" class="text-primary text-uppercase">Read Full Story</a>
+                    <a href="" class="text-primary text-uppercase">Read Full Story</a> -->
                 </div>
                 <div class="news-item col-md-6 col-lg-3">
-                    <img class="img-fluid" src="https://www.theshelter.org/wp/wp-content/uploads/2020/02/web1_20170428-0052-CTY-HOMELESS-WORKSHOP-455x320.jpg" alt="">
-                    <div class="news-category mt-1 text-uppercase mb-2"><p class="mb-0">Shelter News</p></div>
+                    <div class="thumbnail" style="background-image: url('img/photos/IMG_4586.png');"></div>
+                    <!-- <div class="news-category mt-1 text-uppercase mb-2"><p class="mb-0">Shelter News</p></div>
                     <p class="h4">
                         The state’s first igloo dome shelters open to help Hawaii’s homeless
                     </p>
                     <p class="text-uppercase">October 24, 2018 by the shelter in shelter news</p>
-                    <a href="" class="text-primary text-uppercase">Read Full Story</a>
+                    <a href="" class="text-primary text-uppercase">Read Full Story</a> -->
                 </div>
                 <div class="news-item col-md-6 col-lg-3">
-                    <img class="img-fluid" src="https://www.theshelter.org/wp/wp-content/uploads/2020/02/web1_20170428-0052-CTY-HOMELESS-WORKSHOP-455x320.jpg" alt="">
-                    <div class="news-category mt-1 text-uppercase mb-2"><p class="mb-0">Shelter News</p></div>
+                    <div class="thumbnail" style="background-image: url('img/photos/4.png');"></div>
+                    <!-- <div class="news-category mt-1 text-uppercase mb-2"><p class="mb-0">Shelter News</p></div>
                     <p class="h4">
                         The state’s first igloo dome shelters open to help Hawaii’s homeless
                     </p>
                     <p class="text-uppercase">October 24, 2018 by the shelter in shelter news</p>
-                    <a href="" class="text-primary text-uppercase">Read Full Story</a>
+                    <a href="" class="text-primary text-uppercase">Read Full Story</a> -->
                 </div>
             </div>
         </div>
