@@ -7,6 +7,24 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/fontawesome.css">
         <link href="css/aos.css" rel="stylesheet">
+        <style>
+            #ministries .card-img-top {
+                height: 200px;
+                background-size: cover;
+                background-position: center;
+            }
+            #ministries .card h1,
+            #ministries .card {
+                transition: 0.5s;
+            }
+            #ministries .card:hover h1 {
+                color: white !important;
+            }
+            #ministries .card:hover {
+                background-color:#81bd41 !important;
+                cursor: pointer;
+            }
+        </style>
     </head>
     <body>
         <!-- Navbar -->
@@ -76,6 +94,121 @@
             </video>
         </div>
 
+
+        <!-- Ministries -->
+        <div class="container-fluid section" style="overflow: hidden;">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Title -->
+                   <div class="section-title text-left mb-4 text-center" data-aos="fade-up">
+                       <p class="text-uppercase mb-0">Agape Fellowship</p>
+                       <h1 class="text-primary">Ministries</h1>
+                   </div>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-left" data-aos-delay="200">
+                <div class="col-12">
+                    <div class="card-group" id="ministries">
+                        <div class="card ">
+                            <div class="card-img-top" style="background-image: url('img/church.jpg');"></div>
+                            <div class="card-body">
+                                <h1 class="card-title text-primary">Agape Fellowship</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem perspiciatis ab deleniti nostrum repudiandae minima blanditiis recusandae ipsum repellendus quos! Maxime magnam obcaecati quibusdam. Cum tempore harum maiores aliquid quae!</p>
+                            </div>
+                        </div>
+                        <div class="card ">                
+                            <div class="card-img-top" style="background-image: url('img/camp_agape.jpg');"></div>
+                            <div class="card-body">
+                                <h1 class="card-title text-primary">Camp Agape</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem perspiciatis ab deleniti nostrum repudiandae minima blanditiis recusandae ipsum repellendus quos! Maxime magnam obcaecati quibusdam. Cum tempore harum maiores aliquid quae!</p>
+                            </div>
+                        </div>
+                        <div class="card ">
+                            <div class="card-img-top" style="background-image: url('img/prison_outreach.jpg');"></div>
+                            <div class="card-body">
+                                <h1 class="card-title text-primary">Prison Outreach</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem perspiciatis ab deleniti nostrum repudiandae minima blanditiis recusandae ipsum repellendus quos! Maxime magnam obcaecati quibusdam. Cum tempore harum maiores aliquid quae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Be Part of Camp Agape -->
+        <div class="container section" id="about">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Title -->
+                <div class="section-title text-left mb-4 text-center" data-aos="fade-up">
+                    <p class="text-uppercase mb-0">Be Part Of</p>
+                    <h1 class="text-primary">Agape Christian Fellowship</h1>
+                </div>
+                </div>
+            </div>
+            <div class="row text" id="steps" style="overflow:hidden">
+                <div class="col-md-6 col-lg-4 mb-5 ml-auto" data-aos="fade-right" data-aos-delay="200">
+                    <h2 class="mb-5 text-primary text-center">Share</h2>
+                    <p class="mb-5 lead">
+                        Our story is one of hope. Please share these links to others who are seeking to support a proven way to change the lives of women and their young children who were once homeless.
+                    </p>
+                    <div class="btn-container">
+                        <button class="btn btn-lg p-3 btn-primary">SHARE</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mr-auto container" data-aos="fade-left" data-aos-delay="200">
+                    <h2 class="mb-5 text-primary text-center">Donate</h2>
+                    <p class="mb-5 lead">
+                        Our solution is proven. However, we need your support to sustain our solution. Contribute what you can and BE PART OF THE SOLUTION!
+                    </p>
+                    <button class="btn btn-lg p-3 btn-primary">DONATE</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonies -->
+        <div class="container-fluid section mb-0" id="testimonies">
+            <div class="row align-items-center h-100">
+                <div class="col-md-7 col-lg-6 order-2 order-md-1">
+                   <div class="px-0 px-md-5 container">
+                        <!-- Section Title -->
+                        <div class="section-title text-center mb-5" data-aos="fade-up">
+                            <p class="text-uppercase mb-0">Agape Christian Fellowship</p>
+                            <h1><span>What Others</span> <span class="text-primary">Say</span></h1>
+                        </div>
+
+                        <!-- Testimonies -->
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-aos="fade-up" data-aos-delay="200">
+                            <p class="h1 text-center mb-3"><i class="fas fa-quote-left text-primary"></i></p>
+                            <div class="carousel-inner text-center">
+                                <div class="carousel-item active px-0 px-md-5">
+                                    <p class="h1 font-weight-bold">The other part of the solution is they need the connectiveness and love.</p>
+                                    <p class="text-uppercase mt-4 font-weight-bold mb-0">Marc Alexander</p>
+                                    <p class="h6">City Council of Honolulu, Housing Director</p>
+                                </div>
+                                <div class="carousel-item px-0 px-md-5">
+                                    <p class="h1 font-weight-bold">This is a beginning. This is a kernel. This is a model. This is something that as this grows is replicable.</p>
+                                    <p class="text-uppercase mt-4 font-weight-bold mb-0">ANDRIA TUPOLA</p>
+                                    <p class="h6">Hawaii State House of Representatives</p>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <i class="fas fa-long-arrow-alt-left text-dark h3"></i>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <i class="fas fa-long-arrow-alt-right text-dark h3"></i>
+                            </a>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-md-5 col-lg-6 bg-image container order-1 order-md-2 mb-5 mb-md-0" style="overflow: hidden;">
+                    <div class="image" data-aos="fade-left" data-aos-delay="400"></div>
+                    <div class="gradient"></div>
+                </div>
+            </div>
+        </div>
+
         <!-- Sponsors -->
         <div id="sponsors" class="container section mt-5">
             <!-- Section Title -->
@@ -128,115 +261,6 @@
                             <i class="fas fa-arrow-right text-dark"></i>
                         </a>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- About Camp Agape -->
-        <div class="container-fluid section" id="about">
-            <div class="row">
-                <div class="col-md-6 order-2 order-md-1">
-                   <div class="px-2 px-lg-5 container">
-                        <!-- Section Title -->
-                        <div class="section-title text-left mb-5" data-aos="fade-up">
-                            <p class="text-uppercase mb-0">Who We Are</p>
-                            <h1 class="text-primary">About Camp Agape</h1>
-                        </div>
-                        <p class="mb-5 lead" data-aos="fade-up" data-aos-delay="200">
-                            Every activity is intended to give a mentor a chance to talk to an Angel about the love of God, as well as an opportunity to demonstrate that love. Our mentors and leaders are trained to understand the process of camp and trust in God’s timing to open up the Angels’ hearts.
-                        </p>
-                        <div class="watch row" data-aos="fade-up" data-aos-delay="200">
-                            <div>
-                                <div class="float-left">
-                                    <button class="btn btn-lg btn-primary rounded-circle" data-toggle="modal" data-target="#projectVideo">
-                                        <i class="fas fa-play small"></i>
-                                    </button>
-                                </div>
-                                <div class="float-right">
-                                    <p class="text-uppercase mb-0 ml-4">Watch</p>
-                                    <hr class="p-0 my-2">
-                                    <p class="text-muted font-weight-light ml-4">Camp Agape Project Video</p>
-                                </div>
-                            </div>
-                        </div>
-                   </div>
-                </div>
-                <div class="col-md-6 bg-image container order-1 order-md-2 mb-5 mb-md-0" style="overflow: hidden;">
-                    <div class="image" data-aos="fade-left" data-aos-delay="400"></div>
-                    <div class="gradient" ></div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Be Part of Camp Agape -->
-        <div class="container section" id="about">
-             <div class="row">
-                 <div class="col-12">
-                     <!-- Section Title -->
-                    <div class="section-title text-left mb-4 text-center" data-aos="fade-up">
-                        <p class="text-uppercase mb-0">Be Part Of</p>
-                        <h1 class="text-primary">Camp Agape</h1>
-                    </div>
-                 </div>
-             </div>
-            <div class="row text" id="steps" style="overflow:hidden">
-                <div class="col-md-6 col-lg-4 mb-5 ml-auto" data-aos="fade-right" data-aos-delay="200">
-                    <h2 class="mb-5 text-primary text-center">Share</h2>
-                    <p class="mb-5 lead">
-                        Our story is one of hope. Please share these links to others who are seeking to support a proven way to change the lives of women and their young children who were once homeless.
-                    </p>
-                    <div class="btn-container">
-                        <button class="btn btn-lg p-3 btn-primary">SHARE</button>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mr-auto container" data-aos="fade-left" data-aos-delay="200">
-                    <h2 class="mb-5 text-primary text-center">Donate</h2>
-                    <p class="mb-5 lead">
-                        Our solution is proven. However, we need your support to sustain our solution. Contribute what you can and BE PART OF THE SOLUTION!
-                    </p>
-                    <button class="btn btn-lg p-3 btn-primary">DONATE</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Testimonies -->
-        <div class="container-fluid section mb-0" id="testimonies">
-            <div class="row align-items-center h-100">
-                <div class="col-md-7 col-lg-6 order-2 order-md-1">
-                   <div class="px-0 px-md-5 container">
-                        <!-- Section Title -->
-                        <div class="section-title text-center mb-5" data-aos="fade-up">
-                            <p class="text-uppercase mb-0">Camp Agape</p>
-                            <h1><span>What Others</span> <span class="text-primary">Say</span></h1>
-                        </div>
-
-                        <!-- Testimonies -->
-                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-aos="fade-up" data-aos-delay="200">
-                            <p class="h1 text-center mb-3"><i class="fas fa-quote-left text-primary"></i></p>
-                            <div class="carousel-inner text-center">
-                                <div class="carousel-item active px-0 px-md-5">
-                                    <p class="h1 font-weight-bold">The other part of the solution is they need the connectiveness and love.</p>
-                                    <p class="text-uppercase mt-4 font-weight-bold mb-0">Marc Alexander</p>
-                                    <p class="h6">City Council of Honolulu, Housing Director</p>
-                                </div>
-                                <div class="carousel-item px-0 px-md-5">
-                                    <p class="h1 font-weight-bold">This is a beginning. This is a kernel. This is a model. This is something that as this grows is replicable.</p>
-                                    <p class="text-uppercase mt-4 font-weight-bold mb-0">ANDRIA TUPOLA</p>
-                                    <p class="h6">Hawaii State House of Representatives</p>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                <i class="fas fa-long-arrow-alt-left text-dark h3"></i>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                <i class="fas fa-long-arrow-alt-right text-dark h3"></i>
-                            </a>
-                        </div>
-                   </div>
-                </div>
-                <div class="col-md-5 col-lg-6 bg-image container order-1 order-md-2 mb-5 mb-md-0" style="overflow: hidden;">
-                    <div class="image" data-aos="fade-left" data-aos-delay="400"></div>
-                    <div class="gradient"></div>
                 </div>
             </div>
         </div>
