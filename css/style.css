@@ -44,6 +44,7 @@ html, body {
 #header {
     position: relative;
     height: 100vh;
+    max-height: 1000px;
     overflow: hidden;
     background-size: cover;
 }
@@ -93,10 +94,10 @@ html, body {
 /* Gradient */
 .gradient-right {
     background: rgb(255,255,255);
-background: -moz-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 100%);
-background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
     position: absolute;
     /* z-index: 2; */
     top: 0;
