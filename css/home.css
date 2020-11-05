@@ -40,11 +40,6 @@
     color: #000;
 }
 
-.bg-image {
-    height: 100vh;
-    max-height: 1000px;
-}
-
 /* Christian Fellowship */
 #christian-fellowship .image {
     background-image: url('../img/campagape-plan.png');
@@ -80,9 +75,11 @@
 
 
 /* Testimonies */
+#testimonies .bg-image {
+    max-height: 1300px !important;
+}
 #testimonies .image {
     background-image: url('../img/testimonies.png');
-    height: 100vh;
 }
 @media (max-width: 425px) {
     #testimonies {
@@ -106,6 +103,11 @@
     background-size: cover;
 }
 
+/* Make a differencec */
+#make-a-difference .image{
+    background-image: url('../img/thankyou.png');
+}
+
 /* Project Vide */
 #projectVideo .modal-content{
    background-color: rgba(0,0,0,0);
@@ -118,6 +120,8 @@
 .bg-image {
     background-size: cover;
     position: relative;
+    height: 100vh;
+    max-height: 1000px;
 }
 .bg-image .image {
     background-size: cover;

@@ -8,7 +8,15 @@
         <link href="css/aos.css" rel="stylesheet">
         <style>
             #big-quote {
-                max-height: 700px;
+                height: 100vh;
+                max-height: 1000px;
+                position: relative;
+            }
+            #big-quote .quote {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
             #fixed-image {
                 position: fixed;
@@ -19,6 +27,11 @@
                 z-index: 1;
                 background-size: cover;
             }
+@media (min-width: 1200px) {
+    #fixed-image {
+        display: none;
+    }
+ }
             #content p {
                 text-indent: 20px;
             }
@@ -99,10 +112,10 @@
         </div>
 
         <!-- Header -->
-        <div class="container" id="big-quote" style="overflow: hidden;">
-            <div class="row align-items-center h-100" data-aos="fade-left">
-                <div class="col-lg-6 col-md-6 ml-auto ">
-                   <div>
+        <div class="container"  style="overflow: hidden;">
+            <div class="row" data-aos="fade-left">
+                <div class="col-lg-6 col-md-6 ml-auto" id="big-quote">
+                   <div class="quote">
                         <h1 class="display-3 text-center">
                             <i class="fas fa-quote-left text-primary"></i>
                         </h1>
