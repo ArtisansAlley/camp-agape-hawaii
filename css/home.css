@@ -2,7 +2,7 @@
     background-image: url('../img/banner.jpg');
 }
 
-#navbar-contact {
+/* #navbar-contact {
     
     background-color: transparent !important;
 }
@@ -38,13 +38,12 @@
 }
 #navbar-contact .nav-link {
     color: #000;
-}
+} */
 
 /* Christian Fellowship */
 #christian-fellowship .image {
     background-image: url('../img/campagape-plan.png');
     background-position: top center;
-    height: 100vh;
 }
 @media (max-width: 425px) {
     #christian-fellowship {
@@ -56,8 +55,37 @@
     }
 }
 
+/* Why a center */
+#why-center .image {
+    background-image: url('../img/sample_tent.png');
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Programs */
+#programs {
+    background-image: url('../img/programs-bg.jpg');
+    background-size: cover;
+    backdrop-filter: brightness(50);
+}
+
+/* What we need */
+#what-we-need p {
+    line-height: 1.6em;
+}
+
+p.h1,
+p.h2,
+p.h3,
+p.h4,
+p.h5,
+p.h6   {
+    font-family: 'Montserrat',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    line-height: 1.7em;
+}
 /* Be Part of... */
-#steps > div{
+/* #steps > div{
     cursor: pointer;
 }
 #steps .btn {
@@ -71,7 +99,7 @@
     #steps .btn {
         opacity: 1;
     }
-}
+} */
 
 
 /* Testimonies */

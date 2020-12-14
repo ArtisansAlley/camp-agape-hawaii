@@ -57,7 +57,19 @@
                 z-index: 4;
             }
 
-
+            .circle {
+                width: 100%;
+                background-color: green;
+                border-radius: 300%;
+                background-size: cover;
+                background-position: center;
+            }
+            .circle:after {
+                content: "";
+                display: block;
+                padding-bottom: 100%;
+            }
+            
         </style>
     </head>
     <body>
@@ -76,6 +88,7 @@
                 </div>
             </nav>
             <nav id="navbar" class="navbar navbar-expand-lg py-0 on-top">
+               <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img src="img/logo.png" alt="" class="img-fluid" width="43">
                 </a>
@@ -105,6 +118,7 @@
                     </li>
                   </ul>
                 </div>
+               </div>
             </nav>
         </div>
 
@@ -132,7 +146,7 @@
         </div>
 
         <!-- Agape Christian Fellowship Center -->
-        <div class="container-fluid section mt-0 mb-0"  id="christian-fellowship">
+        <div class="container-fluid section mt-5 mb-0"  id="christian-fellowship">
             <div class="row align-items-center h-100">
                 <div class="col-md-7 col-lg-6 order-2 order-md-1">
                    <div class="px-0 px-md-5 container">
@@ -141,8 +155,9 @@
                             <p class="text-uppercase mb-0">A Vision of the past, present, and future</p>
                             <h1>Agape <span class="text-primary">Christian Fellowship Center</span></h1>
                         </div>
-                        <p class="h3" data-aos="fade-up" data-aos-delay="200">
-                            Agape Christian fellowship Center uses faith and action to implement a vision for a large-scale community center in Mililani that can foster emotional, spiritual, and educational growth for courageous individuals young and old who desire transformation for themselves, their families, and the community. This faculty will encompass these three ministries
+                        <p class="h5" data-aos="fade-up" data-aos-delay="200">
+                            <!-- Agape Christian fellowship Center uses faith and action to implement a vision for a large-scale community center in Mililani that can foster emotional, spiritual, and educational growth for courageous individuals young and old who desire transformation for themselves, their families, and the community. This faculty will encompass these three ministries -->
+                            With God’s blessing and a promise, Pastor Roy Yamamoto is championing a capital campaign to raising funds to build a permanent interactive facility in Mililani that will foster emotional growth, life skills and spiritual training to those who step into this community impact hub called the Agape Christian fellowship center. 
                         </p>
                    </div>
                 </div>
@@ -153,51 +168,144 @@
             </div>
         </div>
 
-        <!-- Ministries -->
-        <div class="container-fluid section" data-aos="fade-up" data-aos-delay="200" style="overflow:hidden" id="ministries">
-            <div class="row" >
-                <div class="col-12">
-                    <div class="card-deck">
-                        <div class="card ">
-                            <div class="card-img-top" style="background-image: url('img/church.jpg');">
-                                <div>
-                                    <p>
-                                        “Train up a child in the way he should go; even when he is old he will not depart for it.” <span class="text-primary">—Proverbs 22:6</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <h1 class="card-title text-primary">Agape Fellowship</h1>
-                                <p>We are a vibrant church with a congregation that looks to experience God in an intimate way.  We partner with our Lord and Savior Jesus Christ to express the joy and power of His Kingdom in every area of life.  We look to empower those whose families have been affected by parents who have been incarcerated and hope to strengthen their relationship with God.  </p>
-                            </div>
+        <!-- Why A Center -->
+        <div class="container-fluid section"  id="why-center">
+            <div class="row align-items-center ">
+                <div class="col-md-5 col-lg-6 bg-image container order-1 order-md-1 mb-5 mb-md-0" style="overflow: hidden;">
+                    <div class="image" data-aos="fade-right" data-aos-delay="400"></div>
+                    <!-- <div class="gradient"></div> -->
+                </div>
+                <div class="col-md-7 col-lg-6 order-2 order-md-2">
+                   <div class="px-0 px-md-5 container">
+                        <!-- Section Title -->
+                        <div class="section-title mb-5" data-aos="fade-up">
+                            <p class="text-uppercase mb-0">Center for Transformation</p>
+                            <h1>Why a <span class="text-primary">Center?</span></h1>
                         </div>
-                        <div class="card ">                
-                            <div class="card-img-top" style="background-image: url('img/camp_agape.jpg');">
-                                <div>
-                                    <p>
-                                        “The Spirit of the Lord God is upon me because the Lord has anointed me to bring good news to the poor; he has sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to those who are bound…” <span class="text-primary">—Isaiah 61:1</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <h1 class="card-title text-primary">Camp Agape</h1>
-                                <!-- Once a year, about 150 “Angels”—children of incarcerated parents—attend Camp Agape, sponsored by Camp Agape Hawaii. The camp first started in 2005 and stems from a mission to share God’s love with children whose parents are in prison. “Agape” love is always the theme at the camp, as volunteers and junior mentors strive to demonstrate the love of Christ to the camp attendees.  -->
-                                <p>Camp Agape is an annual, four-day event filled with an intentional series of activities and events that facilitate sharing the Gospel of Jesus Christ through love, trust, forgiveness, and hope. Camp Agape is the place where astonishing transformations happen that affect the whole family and can last generations.   The camp is just the beginning of a transformed life with Christ. With the new center, we will be able to provide more activities and events throughout the year that keep the children connected with their mentors, who love and encourage them.</p>
-                            </div>
+                        <p class="h5" data-aos="fade-up" data-aos-delay="200">
+                            This center will be for the educational growth for courageous individuals young and old who desire transformation for themselves, their families, and the community. This faculty will encompass these three main ministries. <a href="#">Camp Agape</a>, <a href="#">Prison Ministry</a> and <a href="#">Agape Christian Fellowship</a>. We envision this central facility to be used year-round for youth programs, team-building and leadership training that will benefit children and youth as well as adults from all across the Islands. 
+                        </p>
+                   </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- What We Need -->
+       <div class="container-fluid bg-secondary section" id="what-we-need">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-7 text-light">
+                        <div class="section-title text-center mb-5" data-aos="fade-up">
+                            <p class="text-uppercase mb-0">A Vision of the past, present, and future</p>
+                            <h1>What We <span class="text-primary">Need</span></h1>
                         </div>
-                        <div class="card ">
-                            <div class="card-img-top" style="background-image: url('img/prison_outreach.jpg');">
-                                <div>
-                                    <p>
-                                        “And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner.”<span class="text-primary">-Ephesians 2:20-22</span> 
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <h1 class="card-title text-primary">Prison Outreach</h1>
-                                <p>Agape prison Outreach conducts regular outreaches to the men and women incarcerated in Oahu’s prisons and correctional facilities. The ministry also makes annual trips to Saguaro Correctional Center in Eloy, Arizona, a mainland prison that houses inmates from the state of Hawaii.</p>
 
-                                <p>Through Bible study, worship and prayer, inmates are given a chance to break free from mental, emotional, and spiritual bondage, and are encouraged and empowered to become productive members of society when they’re released from prison.</p>
+                        <div class="p-5" data-aos="fade-up" data-aos-delay="200">
+                            <p class="lead">We will need to raise a total of <span class="text-primary h3">$25 Million</span> for the Construction of this all purpose camp.  An additional <span class="text-primary h3">$5.0 million</span> to be invested into a permanent endowment fund to provide for a major portion of the annual operating costs. The initial vision for this facility was due to the lack of available facilities and because of the scarcity of available venues and the astronomical cost of available facilities, our island is in dire need of a facility that will increase the moral compass of our children and youth and train them to become leaders in our community, state and world. The parents of these children who were incarcerated also will  participate in program at this center.  The new state of the art facilities will be available to all. Plans call for partnering with local organizations, schools, churches, youth groups and many other local businesses to ensure maximum utilization of the facilities where individuals will grow in their social, psychological, physical and life skills.</p>
+
+                            <p class="lead">While this construction project is an ambitious one, Pastor Roy calls it the Super Bowl of Kingdom work. Nothing else comes close to the feeling of being able to further God’s Kingdom for generations to come by helping to stop the cycle of destruction that is cause be drugs, domestic violence and mental illness .
+                            Our programs will teach important life skills from cooking healthy meals on a budget, to self-sustainability through such ministries such as agriculture and aquaponics to learn self sustainability to name a few projected programs.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div style="position:absolute;top:50%;transform: translateY(-50%);" data-aos="fade-right">
+                            <img class="img-fluid mb-2" src="img/1DX_0441.jpg" alt="">
+                            <img class="img-fluid" src="img/5D3_2465.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+       </div>
+
+
+        <!-- Programs -->
+        <div class="container" data-aos="fade-up">
+            <div class="row mb-3">
+                <div class="col">
+                    <h1>Ministries that will be a part of the Agape Christian Fellowship Center.</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid section py-5 text-light mt-0"  id="programs">
+            
+            <div class="container" data-aos="fade-up" data-aos-delay="200">
+                <div class="row mb-5">
+                    <div class="col-md-6 mx-auto">
+                        <div class="row" >
+                            <div class="col-lg-3">
+                                <div class="d-flex mb-2">
+                                    <div class="circle" style="background-image: url('img/programs/pexels-alex-green-5692218.jpg');"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h2>Food program</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mx-auto">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="d-flex mb-2">
+                                    <div class="circle" style="background-image: url('img/programs/pexels-askar-abayev-5638838.jpg');"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h2>Parenting Skills</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="d-flex mb-2">
+                                    <div class="circle" style="background-image: url('img/programs/pexels-christina-morillo-1181722.jpg');"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h2>Former incarcerated women mentorship</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="d-flex mb-2">
+                                    <div class="circle" style="background-image: url('img/programs/pexels-nappy-935949.jpg');"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h2>Former incarcerated men mentorship</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="d-flex mb-2">
+                                    <div class="circle" style="background-image: url('img/programs/vegetable-plant-aquaponics-system-fresh-green-organic-healthy-good-environment-152796161.jpg');" ></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h2>Aquaponics</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="d-flex mb-2">
+                                    <div class="circle" style="background-image: url('img/programs/pexels-thiszun-\(follow-me-on-ig-fb\)-1116302.jpg');"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h2>Culinary Arts</h2>
                             </div>
                         </div>
                     </div>
@@ -206,49 +314,23 @@
         </div>
 
         <!-- How can you make a difference -->
-        <div class="container-fluid section mt-0 mb-0"  id="make-a-difference">
-            <div class="row">
+        <div class="container-fluid section"  id="make-a-difference">
+            <div class="row align-items-center">
                 <div class="col-md-7 col-lg-6 order-2 order-md-1">
-                    <div class="row">
-                        <div class="col-12">
-                            <!-- Section Title -->
-                        <div class="section-title text-left text-center" data-aos="fade-up">
-                            <p class="text-uppercase mb-0">How Can You Make a Difference?</p>
-                            <h1 class="text-primary">Agape Christian Fellowship</h1>
-                        </div>
-                        </div>
+                    <!-- Section Title -->
+                    <div class="section-title text-left text-center" data-aos="fade-up">
+                        <p class="text-uppercase mb-0">How Can You Make a Difference?</p>
+                        <h1 class="text-primary">Agape Christian Fellowship</h1>
                     </div>
-                    <div class="row my-5">
-                        <div class="col-md-6 col-lg-10 mb-5 mx-auto">
-                            <blockquote class="blockquote mb-5 border p-2 text-dark text-center mx-auto">
-                                <p class="mb-0"><em>“So they said, ‘Let us rise up and build.’ Then they set their hands to do work.”</em><p>
-                                <footer class="blockquote-footer">Nehemiah 2:18</footer>
-                            </blockquote>
-                            <p class="lead">
-                                As we prepare for this year’s Camp Agape, please partner with us to help build our permanent Agape Christian Center. We cannot do this alone, so we ask for your help by financially partnering with us at any level you can.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row text" id="steps" style="overflow:hidden">
-                        <div class="col-md-6 col-lg-5 mb-5 ml-auto" data-aos="fade-right" data-aos-delay="200">
-                            <div>
-                                <h2 class="mb-5 text-primary text-center">Donate</h2>
-                                <p class="mb-5 lead">
-                                    Our solution is proven. However, we need your support to sustain our solution. Contribute what you can and BE PART OF THE SOLUTION!
-                                </p>
-                                <button class="btn btn-lg p-3 btn-primary">DONATE</button>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-5 mr-auto bg-" data-aos="fade-left" data-aos-delay="200">
-                            <div>
-                                <h2 class="mb-5 text-primary text-center">Share</h2>
-                                <p class="mb-5 lead">
-                                    Our story is one of hope. Please share these links to others who are seeking to support a proven way to change the lives of women and their young children who were once homeless.
-                                </p>
-                                <div class="btn-container">
-                                    <button class="btn btn-lg p-3 btn-primary">SHARE</button>
-                                </div>
-                            </div>
+
+
+                    <div class="mt-5" data-aos="fade-up" data-aos-delay="200">
+                        <p class="lead text-center mb-5">
+                            As we prepare for this year’s Camp Agape, please partner with us to help build our permanent Agape Christian Center. We cannot do this alone, so we ask for your help by financially partnering with us at any level you can.
+                        </p>
+                        <div class="row">
+                            <button class="btn btn-primary p-3 col-lg-4 ml-auto">DONATE</button>
+                            <button class="btn btn-primary p-3 col-lg-4 mr-auto">SHARE</button>
                         </div>
                     </div>
                 </div>
@@ -275,9 +357,9 @@
                             <p class="h1 text-center mb-3"><i class="fas fa-quote-left text-primary"></i></p>
                             <div class="carousel-inner text-center">
                                 <div class="carousel-item active px-0 px-md-5">
-                                    <p class="h1 font-weight-bold">The other part of the solution is they need the connectiveness and love.</p>
-                                    <p class="text-uppercase mt-4 font-weight-bold mb-0">Marc Alexander</p>
-                                    <p class="h6">City Council of Honolulu, Housing Director</p>
+                                    <h3 class="font-weight-bold">When I first came to Camp 11 years ago, I wanted to go home. But after that first camp, Camp Agape has changed my life to shape my future and the young woman that I am today, not only has it saved me and my family, but it’s given me a hope to give back to the many hurting kids of our islands so they can stop [and] break the cycle of our kids following in the footsteps of our incarcerated parents.</h3>
+                                    <p class="text-uppercase mt-4 font-weight-bold mb-0">Ashleigh Kahawaiola’a Daffron</p>
+                                    <p class="h6">21 years old</p>
                                 </div>
                                 <div class="carousel-item px-0 px-md-5">
                                     <p class="h1 font-weight-bold">This is a beginning. This is a kernel. This is a model. This is something that as this grows is replicable.</p>
@@ -302,7 +384,7 @@
         </div>
 
         <!-- Sponsors -->
-        <div id="sponsors" class="container section mt-5">
+        <div id="sponsors" class="container-fluid section mt-5">
             <!-- Section Title -->
             <div class="row" data-aos="fade-up">
                 <div class="col-12">
